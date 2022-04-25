@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynEditorDarkTheme", "RoslynEditorDarkTheme\RoslynEditorDarkTheme.csproj", "{FCF7ADE2-B1A9-4824-AD9A-4D400695E194}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynCodeEditLib", "RolsynCodeEditLib\RoslynCodeEditLib.csproj", "{6AD64BF0-9AF9-4AF3-B8A7-3C5BD7A45CBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GUI", "GUI", "{32350308-E556-416A-A6D2-960689910582}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{3414C378-70C8-4CD6-B7E9-782E47EC44E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SettingsModel", "GUI\Settings\SettingsModel\SettingsModel.csproj", "{2201572A-4DC6-4D27-B1CD-C0F990232C43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Settings", "GUI\Settings\Settings\Settings.csproj", "{431A0E1D-07CA-4EB6-8F4E-2575CEE6FE62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Highlighting", "Highlighting", "{66E6BD19-6A65-4BAA-A22C-F97B538A1D29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HighlightingLib", "GUI\Highlighting\HighlightingLib\HighlightingLib.csproj", "{47212824-0490-48E4-AC0C-2F2123B0C7F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCF7ADE2-B1A9-4824-AD9A-4D400695E194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF7ADE2-B1A9-4824-AD9A-4D400695E194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF7ADE2-B1A9-4824-AD9A-4D400695E194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF7ADE2-B1A9-4824-AD9A-4D400695E194}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD64BF0-9AF9-4AF3-B8A7-3C5BD7A45CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD64BF0-9AF9-4AF3-B8A7-3C5BD7A45CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD64BF0-9AF9-4AF3-B8A7-3C5BD7A45CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD64BF0-9AF9-4AF3-B8A7-3C5BD7A45CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2201572A-4DC6-4D27-B1CD-C0F990232C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2201572A-4DC6-4D27-B1CD-C0F990232C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2201572A-4DC6-4D27-B1CD-C0F990232C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2201572A-4DC6-4D27-B1CD-C0F990232C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431A0E1D-07CA-4EB6-8F4E-2575CEE6FE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431A0E1D-07CA-4EB6-8F4E-2575CEE6FE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431A0E1D-07CA-4EB6-8F4E-2575CEE6FE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431A0E1D-07CA-4EB6-8F4E-2575CEE6FE62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47212824-0490-48E4-AC0C-2F2123B0C7F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47212824-0490-48E4-AC0C-2F2123B0C7F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47212824-0490-48E4-AC0C-2F2123B0C7F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47212824-0490-48E4-AC0C-2F2123B0C7F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AD64BF0-9AF9-4AF3-B8A7-3C5BD7A45CBA} = {32350308-E556-416A-A6D2-960689910582}
+		{3414C378-70C8-4CD6-B7E9-782E47EC44E0} = {32350308-E556-416A-A6D2-960689910582}
+		{2201572A-4DC6-4D27-B1CD-C0F990232C43} = {3414C378-70C8-4CD6-B7E9-782E47EC44E0}
+		{431A0E1D-07CA-4EB6-8F4E-2575CEE6FE62} = {3414C378-70C8-4CD6-B7E9-782E47EC44E0}
+		{66E6BD19-6A65-4BAA-A22C-F97B538A1D29} = {32350308-E556-416A-A6D2-960689910582}
+		{47212824-0490-48E4-AC0C-2F2123B0C7F7} = {66E6BD19-6A65-4BAA-A22C-F97B538A1D29}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DF3643C-A7B2-4F28-A9EE-0486F74510B5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<ThemeSyntaxDefinition name="TrueBlue" xmlns="http://icsharpcode.net/sharpdevelop/themesyntaxdefinition/2019">
+
+  <SyntaxDefinition name="C#" extensions=".cs;.csx">
+    <!-- The named colors 'Comment' and 'String' are used in SharpDevelop to detect if a line is inside a multiline string/comment -->
+    <Color name="Comment" foreground="#008000" exampleText="// comment" />
+    <Color name="String" foreground="#A31515" exampleText="string text = &quot;Hello, World!&quot;"/>
+    <Color name="StringInterpolation" foreground="White" exampleText="string text = $&quot;Hello, {name}!&quot;"/>
+    <Color name="Char" foreground="#A31515" exampleText="char linefeed = '\n';"/>
+    <Color name="Preprocessor" foreground="#808080" exampleText="#region Title" />
+    <Color name="Punctuation" exampleText="a(b.c);" />
+    <Color name="ValueTypesKeywords" fontWeight="bold" foreground="#0000FF" exampleText="bool b = true;" />
+    <Color name="ReferenceTypesKeywords" foreground="#0000FF" exampleText="object o;" />
+    <Color name="ObjectOrInterface" foreground="#2B94C3" exampleText="class MainWindow : Window"/>
+    <Color name="MethodCall" foreground="#BC824C" fontWeight="bold" exampleText="o.ToString();"/>
+    <Color name="NumberLiteral" foreground="#000000" exampleText="3.1415f"/>
+    <Color name="ThisOrBaseReference" foreground="#0000FF" fontWeight="bold" exampleText="this.Do(); base.Do();"/>
+    <Color name="NullOrValueKeywords" foreground="#0000FF" fontWeight="bold" exampleText="if (value == null)"/>
+    <Color name="Keywords" fontWeight="bold" foreground="#8F08C4" exampleText="if (a) {} else {}"/>
+    <Color name="GotoKeywords" fontWeight="bold" foreground="#8F08C4" exampleText="continue; return null;"/>
+    <Color name="QueryKeywords" foreground="#0000FF" exampleText="var a = from x in y select z;"/>
+    <Color name="ExceptionKeywords" fontWeight="bold" foreground="#8F08C4" exampleText="try {} catch {} finally {}"/>
+    <Color name="CheckedKeyword" fontWeight="bold" foreground="#0000FF" exampleText="checked {}"/>
+    <Color name="UnsafeKeywords" foreground="#0000FF" exampleText="unsafe { fixed (..) {} }"/>
+    <Color name="OperatorKeywords" fontWeight="bold" foreground="Pink" exampleText="public static implicit operator..."/>
+    <Color name="ParameterModifiers" fontWeight="bold" foreground="#0000FF" exampleText="(ref int a, params int[] b)"/>
+    <Color name="Modifiers" foreground="#0000FF" exampleText="static readonly int a;"/>
+    <Color name="Visibility" fontWeight="bold" foreground="#0000FF" exampleText="public override void ToString();"/>
+    <Color name="NamespaceKeywords" fontWeight="bold" foreground="#0000FF" exampleText="namespace A.B { using System; }"/>
+    <Color name="GetSetAddRemove" foreground="#0000FF" exampleText="int Prop { get; set; }"/>
+    <Color name="TrueFalse" fontWeight="bold" foreground="#0000FF" exampleText="b = false; a = true;" />
+    <Color name="TypeKeywords" fontWeight="bold" foreground="#0000FF" exampleText="if (x is int) { a = x as int; type = typeof(int); size = sizeof(int); c = new object(); }"/>
+
+    <!-- Colors used for semantic highlighting -->
+    <Color name="InterfaceTypes" foreground="#0000FF" exampleText="System.#{#IDisposable#}# obj;"/>
+    <Color name="TypeParameters" foreground="#0000FF" exampleText="class MyList&lt;#{#T#}#&gt; { }"/>
+    <Color name="DelegateTypes" foreground="#0000FF" exampleText="System.#{#Action#}#; action;"/>
+    <Color name="ValueTypes" fontWeight="bold" foreground="#0000FF" exampleText="System.#{#DateTime#}# date;"/>
+    <Color name="EnumTypes" fontWeight="bold" foreground="#0000FF" exampleText="System.#{#ConsoleKey#}# key;"/>
+    <Color name="FieldAccess" fontStyle="italic" exampleText="return this.#{#name#}#;"/>
+    <Color name="InactiveCode" foreground="Gray" exampleText="#{#Deactivated by #if#}#"/>
+    <Color name="SemanticError" foreground="DarkRed" exampleText="o.#{#MissingMethod#}#()"/>
+  </SyntaxDefinition>
+  
+</ThemeSyntaxDefinition>
+<!--
+- XSD Generation from XML
+  http://xmlgrid.net/xml2xsd.html
+
+- XML XSD Validation
+  http://www.utilities-online.info/xsdvalidation/
+-->
